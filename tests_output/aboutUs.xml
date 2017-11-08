@@ -5,16 +5,16 @@
 
   <testsuite name="aboutUs"
     errors="0" failures="0" hostname="" id="" package="aboutUs" skipped="0"
-    tests="0" time="0.000" timestamp="Wed, 08 Nov 2017 07:04:33 GMT">
+    tests="0" time="0.000" timestamp="Wed, 08 Nov 2017 18:56:41 GMT">
   
 
   
     <system-err>
-        Error while running [Support Us / test donate box with bad data to produse error message]:
+        Error while running [Home Screen / bottom of screen navigation]:
 
-  TypeError: browser.setValue(...).assert.elementVisible is not a function
-    at Object.donateBad (C:\Users\tyler\Desktop\DevMt\tyler-el-sistema-automation\data\functions.js:173:21)
-    at Object.test donate box with bad data to produse error message (C:\Users\tyler\Desktop\DevMt\tyler-el-sistema-automation\tests\supportUs.js:61:19)
+  ReferenceError: waitForElementPresent is not defined
+    at Object.bottomNavigation (C:\Users\tyler\Desktop\DevMt\tyler-automation\data\functions.js:74:13)
+    at Object.bottom of screen navigation (C:\Users\tyler\Desktop\DevMt\tyler-automation\tests\homeScreen.js:28:19)
     at Module.call (C:\Users\tyler\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
     at C:\Users\tyler\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (C:\Users\tyler\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
